@@ -1,0 +1,49 @@
+# Environment & secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+
+# Generated presentations (deliverables stay tracked via .gitkeep; actual .pptx are user output)
+deliverables/*.pptx
+
+# Source uploads (user-supplied files; only the README is tracked)
+sources/*.png
+sources/*.jpg
+sources/*.jpeg
+sources/*.svg
+sources/*.gif
+sources/*.pdf
+sources/*.pptx
+sources/*.xlsx
+sources/*.xls
+sources/*.csv
+sources/*.txt
+sources/*.md
+!sources/README.md
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test / temporary output
+*.log
+*.tmp

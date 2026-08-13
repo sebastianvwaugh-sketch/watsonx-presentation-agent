@@ -1,0 +1,5 @@
+ibm-watsonx-orchestrate
+python-pptx==1.0.2
+lxml==6.0.4
+openpyxl==3.1.5
+pydantic==2.11.5
